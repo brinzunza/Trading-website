@@ -6,9 +6,9 @@
         p {
             margin-left: 40px;
         }
-        
+
         h2 {
-            margin-left:40px;
+            margin-left: 40px;
         }
 
         body,
@@ -38,7 +38,7 @@
 
         .tabcontent {
             color: white;
-            display: none;
+            display: flex;
             padding: 100px 20px;
             height: 100%;
         }
@@ -69,46 +69,6 @@
         body {
             background: #333;
             justify-content: center;
-        }
-
-
-        .typewriter h2 {
-            color: black;
-            font-family: Times;
-            overflow: hidden;
-            /* Ensures the content is not revealed until the animation */
-            border-right: .15em solid orange;
-            /* The typwriter cursor */
-            white-space: nowrap;
-            /* Keeps the content on a single line */
-            margin: 0 auto;
-            /* Gives that scrolling effect as the typing happens */
-            /* Adjust as needed */
-            animation: typing 6s steps(40, end),
-            blink-caret .5s step-end infinite;
-        }
-
-        /* The typing effect */
-
-        @keyframes typing {
-            from {
-                width: 0%
-            }
-            to {
-                width: 100%
-            }
-        }
-
-        /* The typewriter cursor effect */
-
-        @keyframes blink-caret {
-            from,
-            to {
-                border-color: transparent
-            }
-            50% {
-                border-color: orange
-            }
         }
     </style>
 
@@ -141,23 +101,19 @@
 
 
     <button class="tablink" onclick="openPage('Home', this, '#68c690')">Overview</button>
-    <button class="tablink" onclick="openPage('News', this, '#41b789')" id="defaultOpen">Short Term</button>
-    <button class="tablink" onclick="openPage('Contact', this, '#247c65')">Long Term</button>
+    <button class="tablink" onclick="openPage('News', this, '#41b789')" id="defaultOpen">Long Term</button>
+    <button class="tablink" onclick="openPage('Contact', this, '#247c65')">Short Term</button>
     <button class="tablink" onclick="openPage('About', this, '#245a53')">About</button>
 
 
 
     <div id="Home" class="tabcontent">
 
-        <body style="background-color: #E5E9F2">
+        <body style="background-color: #E5E9F">
 
             <h2>An<br>informational<br>guide<br>to<br>leveraging<br>your<br>money<br>in<br>the<br><strong>short</strong><br>and<br><strong>long</strong><br>term.</h2>
-            
-            <p> <br><br><strong>Financial Markets</strong><br><br>Financial Markets are where specific shares, bonds, currencies, securities, and commodities can be bought and sold. These markets have various timeframes when they are open to the public where billions of dollars are transferred daily. <br><br><strong>Buying and Selling from Financial Markets</strong><br><br>The idea behind placing money into financial markets is to allow others to borrow your investment in hopes that they are able to return profit after a specified amount of time.<br><br><strong>Brokers and Brokerages</strong><br><br>Brokerages are companies that facilitate the buying and selling process by using their services. </p>
 
-
-
-            <p class="vert">Est. 2023</p>
+            <p> <br><br><strong>Financial Markets</strong><br><br>Financial Markets are where specific shares, bonds, currencies, securities, and commodities can be bought and sold. These markets have various timeframes when they are open to the public where billions of dollars are transferred daily. <br><br><strong>Buying and Selling from Financial Markets</strong><br><br>The idea behind placing money into financial markets is to allow companies, commodities, or products to use your investment to improve their company, commodity, or product in hopes that they are able to return profit after a specified amount of time. Although most people believe buying is the only way to make profit in these markets, there is actually an alternate form of making money called short selling. Short selling allows you to sell a share at market price and expects to buy it later for a cheaper price. This proves that you can make profits regardless of which direction a market may be moving in. <br><br><strong>Brokers and Brokerages</strong><br><br>Brokerages are companies that facilitate the buying and selling process by using their services. Different brokerages sell different shares and charge different fees. Brokers are the individual people that buy or sell you their shares. Recently, with the age of the internet, brokers have been less required for investing as their job has become replaced by online programs. <br><br></p>
 
         </body>
         <p></p>
@@ -166,31 +122,30 @@
 
 
     <div id="News" class="tabcontent">
-        <h3>News</h3>
-        <p>Some news this fine day!</p>
+        <h1 style="margin-left:40px"><strong>The<br>Long<br>Term<br>Approach</strong></h1>
+        <p><strong>Retirement Funds</strong><br><br>The most common types of long term investing include retirement funds. Retirement funds are a long term type of investing where one contributes their money to a fund and then expect to cash out at retirement or around 65 years of age. Examples include 401(l), Roth IRA, and 403(b) which vary from personal contributions as well as employer contributions. The benefit of these retirement funds are that if they are taken out after 65 years of age, they do not require tax payments on the funds. This allows you to keep nearly all of the funds and with the benefits of compound interest, most people find satisfying returns. <br><br> <strong>"Short" Long Term Investing</strong><br><br>The more traditional form of long term investing include the buy and sell decisions solely from the individual investor. It is common for them to use their own strategy and analysis to make decisions. A popular analysis technique is Fundamental Analysis which includes using factors such as charting indicators, company earnings, company performance, national news, and international news. </p>
     </div>
 
 
 
     <div id="Contact" class="tabcontent">
-        <h3>Contact</h3>
-        <p>Get in touch, or swing by for a cup of coffee.</p>
+        <h1 style="margin-left:40px"><strong>The<br>Short<br>Term<br>Approach</strong></h1>
+        <p></p>
     </div>
 
 
 
     <div id="About" class="tabcontent">
-        <h3>About</h3>
-        <p>Self-taught Investor sharing free information for the masses. <br> </p>
+        <h1 style="margin-left:40px">About</h1>
+        <p>Self-taught Investor and Trader <br>Full-time college student<br> Computer Science Student<br>Athletic Performance Enthusiast</p>
+    </div>
+    <div>
+        <p style="color: white">
+            BRUNINVESTOR'S TRADING AND INVESTING EDUCATION</p>
     </div>
 
 
 
-    <div class="scroll-left">
-        <h1 align="center" style="font-size: 30px;font-family: verdana"><strong><i>BRUNINVESTOR'S TRADING AND INVESTING EDUCATION</i></strong></h1>
-        <div class="typewriter">
-        <h2>An informational guide to leveraging your money in the short and long term.</h2>
-    </div>
     </div>
 
 
