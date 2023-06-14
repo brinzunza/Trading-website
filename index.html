@@ -42,7 +42,7 @@
             color: white;
             display: flex;
             padding: 100px 20px;
-            height: 100%;
+            height: auto;
         }
 
         #Home {
@@ -72,6 +72,45 @@
             background: #333;
             justify-content: center;
         }
+        
+        .description {
+            text-align: center;
+        }
+        
+        .main-title {
+            color: white;
+            
+        }
+        
+        
+        .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
     </style>
 
 
@@ -106,10 +145,25 @@
     <button class="tablink" onclick="openPage('News', this, '#41b789')" id="defaultOpen">Long Term</button>
     <button class="tablink" onclick="openPage('Contact', this, '#247c65')">Short Term</button>
     <button class="tablink" onclick="openPage('About', this, '#245a53')">About</button>
+    
+    <div class="tabcontent">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h3 class="animate-charcter"> The Masterclass.</h3>
+    </div>
+  </div>
+</div>
 
+<div class="tabcontent">
+    <h1>
+        The MasterClass.
+    </h1>
+</div>
+<div class="tabcontent" style="">
+    <p>An informational guide to leveraging your money in the short and long term.</p>
+</div>
 
-
-    <div id="Home" class="tabcontent">
+    <div id="Home" class="tabcontent" style="display: none">
 
         <body style="background-color: #E5E9F">
 
@@ -123,35 +177,26 @@
 
 
 
-    <div id="News" class="tabcontent">
+    <div id="News" class="tabcontent" style="display: none">
         <h1 style="margin-left:40px"><strong>The<br>Long<br>Term<br>Approach</strong></h1>
         <p><strong>Retirement Funds</strong><br><br>The most common types of long term investing include retirement funds. Retirement funds are a long term type of investing where one contributes their money to a fund and then expect to cash out at retirement or around 65 years of age. Examples include 401(l), Roth IRA, and 403(b) which vary from personal contributions as well as employer contributions. The benefit of these retirement funds are that if they are taken out after 65 years of age, they do not require tax payments on the funds. This allows you to keep nearly all of the funds and with the benefits of compound interest, most people find satisfying returns. <br><br> <strong>"Short" Long Term Investing</strong><br><br>The more traditional form of long term investing include the buy and sell decisions solely from the individual investor. It is common for them to use their own strategy and analysis to make decisions. A popular analysis technique is Fundamental Analysis which includes using factors such as charting indicators, company earnings, company performance, national news, and international news. In situations such as a global pandemic would be a common place where these investors would short sell or sell their current buy positions. They would then hold until they believe the pandemic is near its end or when they believe that a certain stock is underpriced. </p>
     </div>
 
 
 
-    <div id="Contact" class="tabcontent">
+    <div id="Contact" class="tabcontent" style="display: none">
         <h1 style="margin-left:40px"><strong>The<br>Short<br>Term<br>Approach</strong></h1>
         <p><strong>Trading versus Investing</strong><br><br>A question argued by many comes down to what is trading and what is the difference to investing. Trading is a type of investment that relies more on charts and past trends as opposed to looking at the specific details of the news or </p>
     </div>
 
 
 
-    <div id="About" class="tabcontent">
+    <div id="About" class="tabcontent" style="display: none">
         <h1 style="margin-left:40px">About</h1>
         <p>Self-taught Investor and Trader <br>Full-time college student<br> Computer Science Student<br>Athletic Performance Enthusiast</p>
     </div>
-    <div>
-        <p style="color: white">
-            BRUNINVESTOR'S TRADING AND INVESTING EDUCATION</p>
-    </div>
-
-
 
     </div>
-
-
-
     </style>
 </head>
 
