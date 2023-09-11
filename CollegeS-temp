@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Concepts and Vocabulary</title>
+    <style>
+        body {
+            font-family: "Martaserif", serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #007BFF;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Financial Concepts and Vocabulary</h1>
+    </header>
+
+    <main>
+        <h2>Financial Concepts and Strategies:</h2>
+        <ul>
+            <li>
+                <h3>Budgeting</h3>
+                <p>Budgeting involves creating a monthly spending plan to track income and expenses. It ensures that money is allocated for essential needs and savings.</p>
+                <p>Example: A person creates a budget that allocates a portion of their income to rent, groceries, savings, and entertainment expenses.</p>
+            </li>
+            <li>
+                <h3>Emergency Fund</h3>
+                <p>An emergency fund is a savings account set aside to cover unexpected expenses like medical bills or car repairs.</p>
+                <p>Example: A family maintains an emergency fund equal to six months' worth of living expenses to prepare for unexpected financial setbacks.</p>
+            </li>
+            <li>
+                <h3>Credit Score</h3>
+                <p>A credit score is a numerical representation of creditworthiness used by lenders to assess the risk of lending to an individual.</p>
+                <p>Example: A person checks their credit score and finds it to be 750, indicating good creditworthiness.</p>
+            </li>
+            <li>
+                <h3>Credit Report</h3>
+                <p>A credit report is a detailed record of an individual's credit history, including credit accounts, payment history, and public records.</p>
+                <p>Example: Lenders review an applicant's credit report to assess their creditworthiness before approving a loan.</p>
+            </li>
+            <li>
+                <h3>Interest Rates</h3>
+                <p>Interest rates refer to the cost of borrowing money or the return on investment for savings accounts and investments.</p>
+                <p>Example: A person with a high-yield savings account earns 2% interest annually on their savings balance.</p>
+            </li>
+            <li>
+                <h3>Credit Card Management</h3>
+                <p>Credit card management involves understanding how credit cards work, including minimum payments, interest rates, and avoiding credit card debt.</p>
+                <p>Example: An individual pays their credit card balance in full each month to avoid paying interest on purchases.</p>
+            </li>
+            <li>
+                <h3>Savings and Investment</h3>
+                <p>Savings and investment strategies involve saving money and potentially investing it for long-term financial goals.</p>
+                <p>Example: An investor regularly contributes to a diversified portfolio of stocks and bonds to save for retirement.</p>
+            </li>
+            <li>
+                <h3>Student Loans</h3>
+                <p>Understanding student loans includes knowledge of different types of student loans, repayment options, and the impact of interest rates on loan balances.</p>
+                <p>Example: A recent graduate explores income-driven repayment plans for their federal student loans to manage monthly payments effectively.</p>
+            </li>
+            <li>
+                <h3>Financial Goals</h3>
+                <p>Setting specific, measurable, achievable, relevant, and time-bound (SMART) financial goals is essential for financial planning.</p>
+                <p>Example: An individual sets a SMART financial goal to save $10,000 for a down payment on a home within the next two years.</p>
+            </li>
+            <li>
+                <h3>Credit Utilization</h3>
+                <p>Managing credit utilization involves maintaining the percentage of available credit used on credit cards to maintain a healthy credit score.</p>
+                <p>Example: To improve their credit score, a person lowers their credit card balances to utilize only 30% of their available credit.</p>
+            </li>
+            <li>
+                <h3>Debt Management</h3>
+                <p>Debt management strategies include paying off debt efficiently, with a focus on prioritizing high-interest debt.</p>
+                <p>Example: A person uses the debt avalanche method to pay off high-interest credit card debt before tackling lower-interest loans.</p>
+            </li>
+            <li>
+                <h3>Credit History</h3>
+                <p>Building a positive credit history involves making on-time payments and the responsible use of credit.</p>
+                <p>Example: A young adult establishes a credit history by opening a credit card account and paying their bills promptly.</p>
+            </li>
+        </ul>
+
+        <h2>Key Financial Vocabulary:</h2>
+        <ul>
+            <li>
+                <h3>FICO Score</h3>
+                <p>The FICO Score is a widely used credit scoring model that ranges from 300 to 850. Higher scores indicate better creditworthiness.</p>
+                <p>Example: An individual checks their FICO Score and discovers they have a score of 750, which is considered excellent.</p>
+            </li>
+            <li>
+                <h3>Interest-Free Grace Period</h3>
+                <p>The interest-free grace period is the time during which credit card purchases do not accrue interest if the balance is paid in full by the due date.</p>
+                <p>Example: A credit card has a 25-day interest-free grace period, allowing the cardholder to avoid interest charges if they pay their balance in full within that time frame.</p>
+            </li>
+            <li>
+                <h3>Credit Limit</h3>
+                <p>The credit limit is the maximum amount you can charge on a credit card or the total amount you're approved to borrow on a credit line.</p>
+                <p>Example: A credit card has a $5,000 credit limit, meaning the cardholder can make purchases up to that amount.</p>
+            </li>
+            <li>
+                <h3>Compound Interest</h3>
+                <p>Compound interest refers to earning or paying interest on both the initial principal and previously earned interest.</p>
+                <p>Example: An investor earns compound interest on a savings account, allowing their money to grow faster over time.</p>
+            </li>
+            <li>
+                <h3>APR (Annual Percentage Rate)</h3>
+                <p>The APR represents the annual cost of borrowing money, including interest and fees, expressed as a percentage.</p>
+                <p>Example: A credit card has an APR of 18%, indicating the cost of carrying a balance on the card for a year.</p>
+            </li>
+            <li>
+                <h3>Secured vs. Unsecured Loans</h3>
+                <p>Secured loans require collateral, while unsecured loans do not. Collateral is an asset that can be seized by the lender if the borrower defaults.</p>
+                <p>Example: A mortgage is a secured loan because the home serves as collateral. In contrast, credit card debt is unsecured.</p>
+            </li>
+            <li>
+                <h3>Credit Inquiry</h3>
+                <p>A credit inquiry is a record of when someone accesses your credit report, categorized as a "hard inquiry" (e.g., credit application) or "soft inquiry" (e.g., background check).</p>
+                <p>Example: Applying for a car loan results in a hard inquiry on your credit report, potentially affecting your credit score.</p>
+            </li>
+            <li>
+                <h3>Debt-to-Income Ratio (DTI)</h3>
+                <p>The debt-to-income ratio is the percentage of monthly income used to cover debt payments, including rent, loans, and credit card minimum payments.</p>
+                <p>Example: A person's total monthly debt payments amount to $1,500, while their monthly income is $4,000, resulting in a DTI ratio of 37.5%.</p>
+            </li>
+            <li>
+                <h3>Grace Period</h3>
+                <p>The grace period is the time between the end of a billing cycle and the due date for payment, during which interest may not accrue.</p>
+                <p>Example: A credit card statement closes on the 1st of the month, and the due date is the 25th of the same month. During this period, the cardholder can pay the balance without incurring interest.</p>
+            </li>
+            <li>
+                <h3>Annual Fee</h3>
+                <p>An annual fee is a yearly charge associated with some credit cards, which may be waived or offset by rewards.</p>
+                <p>Example: A premium rewards credit card has an annual fee of $95, but it offers cashback rewards that exceed the fee's cost for the cardholder.</p>
+            </li>
+            <li>
+                <h3>Late Payment Fee</h3>
+                <p>A late payment fee is charged when a credit card payment is not made by the due date.</p>
+                <p>Example: A credit card statement has a due date of the 15th of the month, and the cardholder misses the payment. They are charged a late payment fee of $25.</p>
+            </li>
+            <li>
+                <h3>Default</h3>
+                <p>Default occurs when a borrower fails to meet the terms of a loan or credit agreement, which can have serious consequences for credit scores.</p>
+                <p>Example: If a person consistently misses payments on their auto loan, the lender may repossess the vehicle due to default.</p>
+            </li>
+            <li>
+                <h3>Authorized User</h3>
+                <p>An authorized user is someone given permission to use another person's credit card account, potentially impacting both parties' credit histories.</p>
+                <p>Example: Parents may add their college-aged child as an authorized user on their credit card account to help them establish credit.</p>
+            </li>
+            <li>
+                <h3>Identity Theft</h3>
+                <p>Identity theft is the unauthorized use of someone's personal information for financial gain.</p>
+                <p>Example: A criminal obtains an individual's social security number and uses it to open credit card accounts in their name, resulting in identity theft.</p>
+            </li>
+            <li>
+                <h3>Credit Counseling</h3>
+                <p>Credit counseling provides professional assistance in managing debt and improving financial literacy.</p>
+                <p>Example: A person struggling with debt seeks credit counseling services to create a debt repayment plan and improve their financial knowledge.</p>
+            </li>
+            <li>
+                <h3>Co-signing</h3>
+                <p>Co-signing involves agreeing to be responsible for someone else's debt if they default, which can impact your credit.</p>
+                <p>Example: A parent co-signs their child's auto loan, allowing them to qualify for the loan but making the parent responsible if the child fails to make payments.</p>
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
