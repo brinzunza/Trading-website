@@ -151,7 +151,7 @@
       <strong>long</strong>
       <br>term.
     </h2>
-    <p> Welcome to our comprehensive resource on the art of managing your finances for both immediate and future prosperity. In today's ever-changing financial landscape, making informed decisions about your money is crucial. Whether you're looking to secure your financial future or seeking strategies for short-term gains, our guide is here to empower you with the knowledge and tools needed to maximize the potential of your finances. Explore a wealth of information, tips, and strategies that will help you make informed choices and achieve your financial goals with <strong>confidence.< </p>
+    <p> Welcome to our comprehensive resource on the art of managing your finances for both immediate and future prosperity. In today's ever-changing financial landscape, making informed decisions about your money is crucial. Whether you're looking to secure your financial future or seeking strategies for short-term gains, our guide is here to empower you with the knowledge and tools needed to maximize the potential of your finances. Explore a wealth of information, tips, and strategies that will help you make informed choices and achieve your financial goals with <strong>confidence.</p>
   </body>
   <p></p>
   </div>
@@ -205,6 +205,60 @@
             <p>Compound interest is the process of earning interest on both the initial investment and any accumulated interest. It can significantly boost long-term investment returns.</p>
             <p>Example: An individual invests $10,000 in a savings account with a 5% annual interest rate. Over time, they earn interest not only on the initial $10,000 but also on the interest earned in previous periods.</p>
           </li>
+
+
+
+        <div style="border: 2px solid black; padding: 20px; margin: 20px; width: 300px"><head>
+    <title>Compound Interest Calculator</title>
+</head>
+<body>
+    <h1>Compound Interest Calculator</h1>
+    <form id="interestCalculator">
+        <label for="principal">Principal amount (P):</label>
+        <input type="number" id="principal" required><br><br>
+        
+        <label for="rate">Annual interest rate (r %):</label>
+        <input type="number" id="rate" required><br><br>
+        
+        <label for="time">Time (years):</label>
+        <input type="number" id="time" required><br><br>
+        
+        <label for="compounded">Compounded:</label>
+        <select id="compounded" required>
+            <option value="annually">Annually</option>
+            <option value="semiannually">Semiannually</option>
+            <option value="quarterly">Quarterly</option>
+            <option value="monthly">Monthly</option>
+        </select><br><br>
+        
+        <button type="button" onclick="calculateInterest()">Calculate</button><br><br>
+        
+        <p id="result">Compound Interest: $0</p>
+    </form>
+
+    <script>
+        function calculateInterest() {
+            const principal = parseFloat(document.getElementById("principal").value);
+            const rate = parseFloat(document.getElementById("rate").value);
+            const time = parseFloat(document.getElementById("time").value);
+            const compounded = document.getElementById("compounded").value;
+
+            const n = compounded === "annually" ? 1 : compounded === "semiannually" ? 2 : compounded === "quarterly" ? 4 : 12;
+            const r = rate / (n * 100);
+
+            const amount = principal * Math.pow(1 + r / n, n * time);
+            const interest = amount - principal;
+
+            document.getElementById("result").textContent = `Compound Interest: $${interest.toFixed(2)}`;
+        }
+    </script>
+</body>
+</div>
+
+
+
+
+
           <li>
             <h3>Portfolio Diversification</h3>
             <p>Portfolio diversification involves spreading investments across a variety of asset classes to reduce risk. Long-term investors use diversification to protect their portfolios from significant losses.</p>
@@ -247,7 +301,7 @@
           </li>
           <li>
             <h3>Tax-Deferred Accounts</h3>
-            <p>Tax-deferred accounts, such as IRAs and 401(k)s, allow individuals to invest and grow their savings while deferring taxes until retirement or withdrawal. They are valuable tools for long-term retirement planning.</p>
+            <p>Tax-deferred accounts, such as IRAs and 401(k)s, allow individuals to invest and grow their savings while deferring taxes until retirement or withdrawal. They are valuable tools for long-term retirement planning as they allow individuals to create a long term investment solution that is exempt from taxes if rules are abided by.</p>
             <p>Example: An individual contributes to a traditional IRA, reducing their taxable income for the year and allowing their investments to grow tax-deferred until retirement.</p>
           </li>
           <li>
@@ -257,36 +311,31 @@
           </li>
           <li>
             <h3>Market Volatility</h3>
-            <p>Market volatility refers to the rapid and significant price fluctuations in financial markets. Long-term investors understand that volatility is a natural part of investing.</p>
+            <p>Market volatility refers to the rapid and significant price fluctuations in financial markets. Long-term investors understand that volatility is a natural part of investing. Short-term investors may use market volatility to their advantage and take quicker, shorter positions.</p>
             <p>Example: During periods of market volatility, such as economic crises, stock prices may experience significant ups and downs over a short period, impacting long-term investors' portfolios.</p>
           </li>
           <li>
             <h3>Long-Term Investment Horizon</h3>
-            <p>A long-term investment horizon reflects an investor's focus on achieving financial goals that are several years or decades in the future. It allows for patient, strategic investing.</p>
+            <p>A long-term investment horizon reflects an investor's focus on achieving financial goals that are several years or decades in the future. It allows for patient, strategic investing. This involves their due diligence on investments, diversification plans, and other factors that will are planned to take place in their investment plans. </p>
             <p>Example: An individual begins investing in a diversified portfolio of stocks and bonds in their 20s, with the aim of building wealth for retirement, which is 30 years away.</p>
           </li>
           <li>
             <h3>Market Risk</h3>
-            <p>Market risk, also known as systematic risk, is the risk associated with the overall performance of the financial markets. Long-term investors are exposed to market risk but aim to manage it through diversification and patience.</p>
+            <p>Market risk, also known as systematic risk, is the risk associated with the overall performance of the financial markets. Long-term investors are exposed to market risk but aim to manage it through diversification and patience. Risk may come in the form of the condition of a specific company, the economic condition of the government or the federal reserve, or the conditions of the world economy during natural disasters and pandemics.</p>
             <p>Example: Economic downturns and recessions can lead to market risk, causing a temporary decline in the value of stocks in an investor's portfolio.</p>
           </li>
           <li>
             <h3>Long-Term Investment Strategy</h3>
-            <p>A long-term investment strategy is a comprehensive plan that outlines an investor's financial goals, risk tolerance, asset allocation, and investment choices for the future.</p>
+            <p>A long-term investment strategy is a comprehensive plan that outlines an investor's financial goals, risk tolerance, asset allocation, and investment choices for the future. A common strategy to determining their asset management is to use blue chip stocks that have proven their stability and consistent, steady growth.</p>
             <p>Example: An investor creates a long-term investment strategy that includes contributing regularly to a retirement account, diversifying investments, and periodically reviewing and rebalancing the portfolio.</p>
+          </li>
+          <li>
+            <h3>Initial Public Offering (IPO)</h3>
+            <p>An Initial Public Offering (IPO) is a significant financial event in which a privately held company decides to become publicly traded by issuing shares of its stock to the general public for the first time. This process involves a series of regulatory and financial steps that allow the company to raise capital from a wide range of investors, including institutional and individual investors, in exchange for ownership stakes in the company.</p>
           </li>
         </ul>
       </main>
     </body>
-    <p>
-      <strong>Retirement Funds</strong>
-      <br>
-      <br>The most common types of long term investing include retirement funds. Retirement funds are a long term type of investing where one contributes their money to a fund and then expect to cash out at retirement or around 65 years of age. Examples include 401(l), Roth IRA, and 403(b) which vary from personal contributions as well as employer contributions. The benefit of these retirement funds are that if they are taken out after 65 years of age, they do not require tax payments on the funds. This allows you to keep nearly all of the funds and with the benefits of compound interest, most people find satisfying returns. <br>
-      <br>
-      <strong>"Short" Long Term Investing</strong>
-      <br>
-      <br>The more traditional form of long term investing include the buy and sell decisions solely from the individual investor. It is common for them to use their own strategy and analysis to make decisions. A popular analysis technique is Fundamental Analysis which includes using factors such as charting indicators, company earnings, company performance, national news, and international news. In situations such as a global pandemic would be a common place where these investors would short sell or sell their current buy positions. They would then hold until they believe the pandemic is near its end or when they believe that a certain stock is underpriced.
-    </p>
   </div>
   <div id="Contact" class="tabcontent" style="display: none; padding: 350px">
     <h1 style="margin-left:40px">
@@ -438,6 +487,11 @@
             <p>A trading platform is software or tools used for executing and managing short-term investment transactions. It provides access to financial markets and real-time data.</p>
             <p>Example: A day trader uses a trading platform to execute buy and sell orders for stocks, monitor market prices, and access technical analysis tools.</p>
           </li>
+          <li>
+            <h3>Propriety Trading Firms</h3>
+            <p>A Propriety trading firm is an institution with objectives to find consistently profitable traders and mutually profit. In collaboration with traders, propreity firms offer the opportunity to trade with large account sizes if traders prove their profitability through examinations. This is a common route taken by traders who seek more captial to trade with. </p>
+            <p>Example: A day trader uses a propriety firm to trade with a $100,000 account in order to use their skills and earn higher margin profits for their knowledge and mastery.</p>
+          </li>
         </ul>
       </main>
     </body>
@@ -456,12 +510,12 @@
           </li>
           <li>
             <h3>Emergency Fund</h3>
-            <p>An emergency fund is a savings account set aside to cover unexpected expenses like medical bills or car repairs.</p>
+            <p>An emergency fund is a savings account set aside to cover unexpected expenses like medical bills, recessions, job loss, natural disasters, or car repairs. A common rule of thumb is to maintain an emergency fund that one may survive with for ideally a period of 6 months. </p>
             <p>Example: A family maintains an emergency fund equal to six months' worth of living expenses to prepare for unexpected financial setbacks.</p>
           </li>
           <li>
             <h3>Credit Score</h3>
-            <p>A credit score is a numerical representation of creditworthiness used by lenders to assess the risk of lending to an individual.</p>
+            <p>A credit score is a numerical representation of creditworthiness used by lenders to assess the risk of lending to an individual. Credit score is an important tool for large financial purchases such as loans, house payments, car payments, and other sucb payments. </p>
             <p>Example: A person checks their credit score and finds it to be 750, indicating good creditworthiness.</p>
           </li>
           <li>
@@ -481,12 +535,12 @@
           </li>
           <li>
             <h3>Savings and Investment</h3>
-            <p>Savings and investment strategies involve saving money and potentially investing it for long-term financial goals.</p>
+            <p>Savings and investment strategies involve saving money and potentially investing it for long-term financial goals. This may include investing in retirement plans, the stock market, real estate, and other such investments.</p>
             <p>Example: An investor regularly contributes to a diversified portfolio of stocks and bonds to save for retirement.</p>
           </li>
           <li>
             <h3>Student Loans</h3>
-            <p>Understanding student loans includes knowledge of different types of student loans, repayment options, and the impact of interest rates on loan balances.</p>
+            <p>Understanding student loans includes knowledge of different types of student loans, repayment options, and the impact of interest rates on loan balances. Different student loans include private or federal loans.</p>
             <p>Example: A recent graduate explores income-driven repayment plans for their federal student loans to manage monthly payments effectively.</p>
           </li>
           <li>
@@ -532,6 +586,57 @@
             <p>Compound interest refers to earning or paying interest on both the initial principal and previously earned interest.</p>
             <p>Example: An investor earns compound interest on a savings account, allowing their money to grow faster over time.</p>
           </li>
+
+
+
+        <div style="border: 2px solid black; padding: 20px; margin: 20px; width: 300px"><head>
+    <title>Compound Interest Calculator</title>
+</head>
+<body>
+    <h1>Compound Interest Calculator</h1>
+    <form id="interestCalculator">
+        <label for="principal">Principal amount (P):</label>
+        <input type="number" id="principal" required><br><br>
+        
+        <label for="rate">Annual interest rate (r %):</label>
+        <input type="number" id="rate" required><br><br>
+        
+        <label for="time">Time (years):</label>
+        <input type="number" id="time" required><br><br>
+        
+        <label for="compounded">Compounded:</label>
+        <select id="compounded" required>
+            <option value="annually">Annually</option>
+            <option value="semiannually">Semiannually</option>
+            <option value="quarterly">Quarterly</option>
+            <option value="monthly">Monthly</option>
+        </select><br><br>
+        
+        <button type="button" onclick="calculateInterest()">Calculate</button><br><br>
+        
+        <p id="result">Compound Interest: $0</p>
+    </form>
+
+    <script>
+        function calculateInterest() {
+            const principal = parseFloat(document.getElementById("principal").value);
+            const rate = parseFloat(document.getElementById("rate").value);
+            const time = parseFloat(document.getElementById("time").value);
+            const compounded = document.getElementById("compounded").value;
+
+            const n = compounded === "annually" ? 1 : compounded === "semiannually" ? 2 : compounded === "quarterly" ? 4 : 12;
+            const r = rate / (n * 100);
+
+            const amount = principal * Math.pow(1 + r / n, n * time);
+            const interest = amount - principal;
+
+            document.getElementById("result").textContent = `Compound Interest: $${interest.toFixed(2)}`;
+        }
+    </script>
+</body>
+</div>
+
+
           <li>
             <h3>APR (Annual Percentage Rate)</h3>
             <p>The APR represents the annual cost of borrowing money, including interest and fees, expressed as a percentage.</p>
