@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+    <style>
+        .backtohome {
+            transition: color 0.5s;
+            text-align: right;
+        }
+
+        .backtohome:hover {
+            animation: color-change 2s infinite;
+        }
+
+        @keyframes color-change {
+            0% {
+                color: green; /* Start color */
+            }
+            50% {
+                color: lightgreen; /* Middle color */
+            }
+            100% {
+                color: darkgreen; /* End color */
+            }
+        }
+        
+        
+        
+        .title {
+            text-align: right;
+            font-size: 80px;
+            -webkit-text-stroke: 1px black;
+            color: transparent;
+            margin: 0px;
+            padding: 0px;
+            transition: color 0.5s;
+        }
+        
+        .title:hover {
+            animation: color-change 2s infinite;
+        }
+
+    </style>
+    
+    
+    
     <title>Connections</title>
 </head>
+
 <body>
-    <h1>Connections</h1>
+    <h1 class="title">bruninvestor</h1>
+    <h1 class="title" style="color: black">trading</h1>
     <p></p>
     <p></p>
-    <p><a href="index.html">Back to (0,0)</a></p>
+    
+    
+    
+    
+    
+    
+    <div>
+    <p style="text-align: right;"><a href="index.html" class="backtohome">Back to Origin</a></p>
+    </div>
+    
 </body>
+
 </html>
