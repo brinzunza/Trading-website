@@ -104,6 +104,38 @@
           background-position: 200% center;
         }
       }
+      
+      
+      
+      #footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #10101010;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    transition: color 0.5s;
+}
+
+#footer:hover {
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: green; 
+    }
+    50% {
+        color: lightgreen; 
+    }
+    100% {
+        color: darkgreen; 
+    }
+}
+
+
     </style>
     <script>
       function openPage(pageName, elmnt, color) {
@@ -126,6 +158,15 @@
       // Get the element with id="defaultOpen" and click on it
       document.getElementById("defaultOpen").click();
     </script>
+    
+    
+    
+    
+    
+    <div >
+    <a style="color: black;" id="footer" href="connections.html">Connections</a>
+</div>
+
     <button class="tablink" onclick="openPage('Home', this, '#68c690')">Overview</button>
     <button class="tablink" onclick="openPage('News', this, '#41b789')" id="defaultOpen">Long Term Investments</button>
     <button class="tablink" onclick="openPage('Contact', this, '#247c65')">Short Term Investments</button>
