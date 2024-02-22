@@ -1,21 +1,47 @@
 <!DOCTYPE html>
 <html>
 
+    <title>bruninvestor</title>
 <head>
     <style>
         .backtohome:hover {
             animation: color-change 2s infinite;
         }
 
-        @keyframes color-change {
+        .website:hover {
+            animation: rainbow-change 1s infinite;
+        }
+
+        @keyframes rainbow-change {
             0% {
-                color: green; /* Start color */
+                color: red; 
             }
-            50% {
-                color: lightgreen; /* Middle color */
+            20% {
+                color: orange; 
+            }
+            40% {
+                color: yellow; 
+            }
+            60% {
+                color: green; 
+            }
+            80% {
+                color: blue; 
             }
             100% {
-                color: darkgreen; /* End color */
+                color: purple; 
+            }
+        }
+
+        @keyframes color-change {
+            0% {
+                color: green; 
+            }
+            50% {
+                color: lightgreen; 
+            }
+            100% {
+                color: darkgreen; 
             }
         }
         
@@ -57,10 +83,10 @@
     <h1 class="title">bruninvestor</h1>
     <h1 class="title" style="color: black">trading</h1>
     
-    <p style="text-align: center;"><a style="color: black; font-size: 100px;"href="https://twitter.com/bruninvestor">X</a></p>
+    <p style="text-align: center;"><a style="color: black; font-size: 100px;"href="https://twitter.com/bruninvestor" class="backtohome">X</a></p>
 
     
-    
+    <p style="text-align: center;"><a style="color: black; font-size: 100px;"href="https://bruninvestor.com" class="website">bruninvestor.com</a></p>
     
     
     
