@@ -3,11 +3,6 @@
 
 <head>
     <style>
-        .backtohome {
-            transition: color 0.5s;
-            text-align: right;
-        }
-
         .backtohome:hover {
             animation: color-change 2s infinite;
         }
@@ -40,6 +35,17 @@
             animation: color-change 2s infinite;
         }
 
+        #footer {
+    position: fixed;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #10101010;
+    color: black;
+    padding: 10px 0;
+    transition: color 0.5s;
+
     </style>
     
     
@@ -59,7 +65,7 @@
     
     
     <div>
-    <p style="text-align: right;"><a href="index.html" class="backtohome">Back to Origin</a></p>
+    <p style="text-align: right;"><a href="index.html" class="backtohome" id="footer">bruninvestor.com</a></p>
     </div>
     
 </body>
